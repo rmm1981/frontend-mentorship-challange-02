@@ -1,0 +1,136 @@
+@import "reset.css";
+
+:root {
+    --darkColor: #030303;
+    --lightColor: #fff;
+    --lightBlueColor: #89c6ee;
+    --darkBlueColor: #2980b9;
+    --lighGreenColor: #1abc9c;
+    --darkGreenColor : #16a085;
+    --lightGrayColor : rgb(172, 171, 171);
+    --taskManagerColor :#dff9fb; 
+}
+
+html{
+    width: 100%;
+    height: 60%vh;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 9px;
+    background-color: var(--lightBlueColor);
+    width: 100%;
+    height: 60%vh;
+}
+
+/*first section*/
+
+.label{
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--darkColor);
+}
+
+#section1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list{
+    margin-bottom: 10px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	align-content: stretch;
+    list-style: none;
+}
+
+.input{
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+/*secound section*/
+
+#section2{
+    width: 80%;
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+.two{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+#radio{
+    width: 80%;
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+    border: 0;
+    border-radius: 3px;
+}
+
+.radioBotton{
+    border: 0px;
+    border-radius: 4px;
+    background-color: var(--lightColor);
+    color: var(--darkColor);
+    padding: 5px;
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+#b2{
+margin-left: 5px;    
+}
+
+#checkbox{
+    border-color: #dff9fb;
+    border: 1px;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+ 
+#botton{
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: var(--darkBlueColor);
+    color: var(--lightColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+            
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal information form </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <main>
+
+        <!--first section-->
+
+        <section id="section1">
+            <ul>
+                <li class="list">
+                    <label class="label" for="text">Full Name</label>
+                    <input type="text" class="input" name="Your Name" placeholder="Your Name">
+                </li>
+
+                <li class="list">
+                    <label class="label" for=" email">Email Address</label>
+                    <input type="email" class="input" name="email" placeholder="Your Email Address">
+                </li>
+
+                <li class="list">
+                    <label class="label" for="birthDay">Year of Birth</label>
+                    <input type="Date" class="input" id="birthDay" name="birthDay">
+                </li>
+            </ul>
+
+        </section>
+
+        <!--secound section-->
+
+        <section id="section2">
+
+            <div class="label"><label>Gender</label></div>
+            <div id="radio">
+
+                <div class="radioBotton">
+                    <div><input type="radio" name="Gender" value="male"></div>
+                    <div class="two"><label class="label" for="Gender">Male</label></div>
+                </div>
+
+                <div id="b2" class="radioBotton">
+                    <div><input type="radio" name="Gender" value="Female"></div>
+                    <div class="two"><label class="label" for="Gender">Female</label></div>
+                </div>
+
+            </div>
+
+            <div id="checkbox">
+                <div><input type="checkbox" value="true"></div>
+                <div class="two"><label class="label">I accept the terms & conditions</label></div>
+            </div>
+
+        </section>
+
+        <!--Create Botton-->
+
+        <div id="botton">
+            <botton>Create Account</botton>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
